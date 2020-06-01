@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Prueba {
+public class Test {
 
 
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Prueba {
 
 
         try {
-            MultiTiff.generateMultiPageTiff("/home/eespinoza/IdeaProjects/pruebaImagen/src/main/resources/","prueba");
+            MultiTiff.generateMultiPageTiff("PATH/file.tiff","fileName");
 
         } catch (Exception e) {
             e.printStackTrace();
